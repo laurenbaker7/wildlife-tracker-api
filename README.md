@@ -40,11 +40,11 @@ This is the Python backend for WildlifeTracker, a system designed to help ranger
 
 ## Project Structure
 - app/
-- main.py – FastAPI entrypoint with GraphQL router
-- graphql/ – Resolvers, schema, queries, mutations, types
-- db/ – Models, sessions, and base SQLAlchemy setup
-- services/ – Business logic layer (herd_service, family_service, etc.)
-- utils/ – Helper functions (e.g., haversine)
+    - main.py – FastAPI entrypoint with GraphQL router
+    - graphql/ – Resolvers, schema, queries, mutations, types
+    - db/ – Models, sessions, and base SQLAlchemy setup
+    - services/ – Business logic layer (herd_service, family_service, etc.)
+    - utils/ – Helper functions (e.g., haversine)
 - Dockerfile, docker-compose.yml – Local container orchestration
 
 ## Example GraphQL Operations
